@@ -12,7 +12,7 @@ http://torgeir.github.io/harp-browserify-react-rrouter
 
 ```
 npm run watch
-`
+```
 
 - Automatic recompilation - as smooth as with every other harp application, but with browserify goodness!
 
