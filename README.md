@@ -2,6 +2,10 @@
 
 Project template showing how to use browserify for harp apps.
 
+## Demo
+
+http://torgeir.github.io/harp-browserify-react-router
+
 ## What does this project provide?
 
 - An easy way to use browserify with harp apps
