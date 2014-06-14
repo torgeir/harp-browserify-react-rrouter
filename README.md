@@ -16,7 +16,7 @@ npm run watch
 
 - Automatic recompilation - as smooth as with every other harp application, but with browserify goodness!
 
-- Support for jsx and (partially) es6 using rectify.
+- Support for jsx and (partially) es6 using reactify.
 
 - This specific example uses React and RRouter for routing using the html 5 history api
 
