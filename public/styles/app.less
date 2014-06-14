@@ -1,0 +1,29 @@
+@import "_colors";
+@import "_fonts";
+
+* { box-sizing: border-box; }
+
+html, body {
+  margin: 0;
+  padding: 2em;
+
+  color: @color-text;
+  font-family: Georgia;
+  font-size: 100%;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+  color: @color-link;
+  display: block;
+}
+
+.bars {
+  .fa-icon(@fa-var-bars)
+}
+
+.camera {
+  .fa-icon(@fa-var-camera-retro);
+}
+
