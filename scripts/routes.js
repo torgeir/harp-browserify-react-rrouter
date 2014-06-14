@@ -8,7 +8,7 @@ var Routes = RRouter.Routes;
 var Route  = RRouter.Route;
 
 module.exports = (
-  <Routes path="harp-browserify-react-rrouter"/>
+  <Routes>
     <Route name="index" path="/" view={Index} />
     <Route name="another" path="/another.html" view={Another} />
   </Routes>
