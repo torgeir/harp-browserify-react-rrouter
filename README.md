@@ -45,7 +45,7 @@ npm run watch
 
 By adding empty files for your routes, e.g. `another.ejs`, while using a `_layout.ejs` (but without actually utilizing `yield`) and linking to them using the history api `/another.html`, the url is picked up by the router on page load and the correct js view can be rendered instead of actually loading a real file.
 
-Try serving up this site and navigate directly to `http://torgeir.github.io/harp-browserify-react-rrouter/another.html`, then on to `/`.
+Try serving up this site and navigate directly to http://torgeir.github.io/harp-browserify-react-rrouter/another.html, then on to the index route `/`.
 
 Nice, isn't it?
 
