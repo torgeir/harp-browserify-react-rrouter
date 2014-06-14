@@ -1,7 +1,14 @@
 {
   "name": "harp-browserify-react-rrouter",
-  "version": "0.0.0",
-  "description": "Template project for using browserify along with harp.",
+  "version": "1.0.0",
+  "description": "Template project for using browserify and watchify along with harp.",
+  "keywords": [
+    "harp",
+    "browserify",
+    "watchify",
+    "react",
+    "rrouter"
+  ],
   "dependencies": {
     "bluebird": "^2.1.1",
     "envify": "^1.2.1",
