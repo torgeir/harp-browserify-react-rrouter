@@ -10,7 +10,9 @@ http://torgeir.github.io/harp-browserify-react-rrouter
 
 - An easy way to use browserify with harp apps
 
-    npm run watch
+```
+npm run watch
+`
 
 - Automatic recompilation - as smooth as with every other harp application, but with browserify goodness!
 
@@ -20,11 +22,13 @@ http://torgeir.github.io/harp-browserify-react-rrouter
 
 - An harp "hack" using layouts allows a history api router to hijack urls and render js views, even if the first url you navigate to is a fake one. See below for an explanation.
 
-- A font-awesome mixin that abstracts away what icon font you may use
+- A font-awesome mixin that abstracts away what icon font you may use from your css classes
 
-    .camera {
-      .fa-icon(@fa-var-camera-retro);
-    }
+```
+.camera {
+  .fa-icon(@fa-var-camera-retro);
+}
+```
 
 ## Run/Watch/Recompile
 
