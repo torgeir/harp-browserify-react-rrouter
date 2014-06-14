@@ -24,8 +24,8 @@
   },
   "scripts": {
     "watch": "./node_modules/.bin/harp server public & npm run watch-js",
-    "watch-js": "./node_modules/.bin/watchify -t [reactify --es6 --everything] public/scripts/app.js -o public/app-bundle.js",
-    "bundle-js": "./node_modules/.bin/browserify -t [reactify --es6 --everything] public/scripts/app.js > public/app-bundle.js"
+    "watch-js": "./node_modules/.bin/watchify --debug -t [reactify --es6 --everything] public/scripts/app.js -o public/app-bundle.js",
+    "bundle-js": "./node_modules/.bin/browserify --debug -t [reactify --es6 --everything] public/scripts/app.js > public/app-bundle.js"
   },
   "author": "@torgeir",
   "license": "mit"
